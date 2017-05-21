@@ -245,7 +245,7 @@ function theme_settings_page()
     ?>
         <div class="wrap">
         <h1>Theme Panel</h1>
-        <form method="post" action="options.php">
+        <form method="post" action="options.php"  enctype="multipart/form-data">
             <?php
                 settings_fields("section");
                 do_settings_sections("theme-options");      
@@ -264,7 +264,7 @@ function handle_file_upload($option)
     $temp = $urls["url"];
     return $temp;   
   }
-  
+
   return $option;
 }
 

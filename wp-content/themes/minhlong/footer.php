@@ -8,28 +8,53 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <a href="<?php echo get_bloginfo( 'url' ); ?>"><img class="logo-footer" src="<?php echo get_template_directory_uri();?>/images/<?php echo get_option('logoFile');?>"/></a>
-                <p class="copyright"> ©copyright <?php echo date('Y'); ?> <a href="<?php echo get_bloginfo( 'url' ); ?>"><b class="red"> <?php bloginfo( 'sitename' ); ?></b></a></p>
+                <a href="<?php echo get_bloginfo('url'); ?>"><img class="logo-footer"
+                                                                  src="<?php echo get_option('logoFile'); ?>"></a>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-5">
                 <?php
-                if(is_active_sidebar('footer-sidebar')){
+                if (is_active_sidebar('footer-sidebar')) {
                     dynamic_sidebar('footer-sidebar');
                 }
                 ?>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <h4 class="h4-title">Danh Mục</h4>
-                <?php minhlong_menu( 'footer-menu' ); ?>
+                <?php minhlong_menu('footer-menu'); ?>
             </div>
+
         </div>
     </div>
 </footer>
+<div class="footer-buttom">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="col-xs-6 col-sm-6 col-md-6 footer-copyright">
+                    <p class="copyright"> ©copyright <?php echo date('Y'); ?> <a
+                            href="<?php echo get_bloginfo('url'); ?>"><b> <?php bloginfo('sitename'); ?></b></a></p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6">
+                    <div class="footer-icon-network">
+                        <a class="icon-footer" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a class="icon-footer" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a class="icon-footer"
+                           href="http://trangvangvietnam.com/image_listings/1187756820/cong_ty_tnhh_hoang_phi_vi_na.html">
+                            <img
+                                src="http://localhost/hoangphi/wp-content/uploads/2017/05/new_logo_trangvangvietnam.png"
+                                alt="new_logo_trangvangvietnam"
+                                class="alignnone size-full wp-image-178" style="height: 35px;width: auto;"/></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- footer -->
 <a href="#" class="scrollup">Scroll</a>
 <?php wp_footer(); ?>
 
-<div id="fb-root"></div>
+<!--<div id="fb-root"></div>
   <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
@@ -52,7 +77,7 @@
       <div class="fchat">
       <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/baohanhminhlong" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
       </div>
-  </div>
+  </div>-->
 
 </body>
 </html>
