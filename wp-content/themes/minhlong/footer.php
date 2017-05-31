@@ -38,7 +38,7 @@
                     <div class="footer-icon-network">
                         <a class="icon-footer" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         <a class="icon-footer" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                        <a class="icon-footer"
+                        <a class="icon-footer" target="_blank"
                            href="http://trangvangvietnam.com/image_listings/1187756820/cong_ty_tnhh_hoang_phi_vi_na.html">
                             <img
                                 src="http://localhost/hoangphi/wp-content/uploads/2017/05/new_logo_trangvangvietnam.png"
