@@ -8,6 +8,15 @@
  * Tags: minhlong theme, wordpress theme, toanlm
  * Textdomain: minhlong
  */
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
 h2.h2-title.fancy{
     color: #181818;
     margin-bottom: 40px;

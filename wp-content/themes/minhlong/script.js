@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
 	  $("#owl-home").owlCarousel({
         autoPlay: 5000,
-        items : 1,
-        itemsDesktop : [1199,1],
-        itemsDesktopSmall : [979,1],
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+          itemsMobile:  [979,3],
         navigation:true,
         navigationText: [
             "<span class='icon-arrow-left'></span>",

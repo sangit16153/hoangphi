@@ -78,6 +78,27 @@
       <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/baohanhminhlong" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
       </div>
   </div>-->
+<script>
+    jQuery(document).ready(function($) {
+        var stickyNavTop = $('.header-bottom').offset().top;
+
+        var stickyNav = function(){
+            var scrollTop = $(window).scrollTop();
+
+            if (scrollTop > stickyNavTop) {
+                $('.header-bottom').addClass('sticky');
+            } else {
+                $('.header-bottom').removeClass('sticky');
+            }
+        };
+
+        stickyNav();
+
+        jQuery(window).scroll(function() {
+            stickyNav();
+        });
+    });
+</script>
 
 </body>
 </html>

@@ -116,8 +116,8 @@
 <?php  if ( is_home() ) { // show home page only ?>
 <!-- header slider -->
 <div id="owl-home" class="owl-carousel">
-    <div class="item"><img src="<?php echo get_template_directory_uri();?>/images/slider1.jpg" alt="Minh Long"></div>
-    <div class="item"><img src="<?php echo get_template_directory_uri();?>/images/slider2.jpg" alt="Minh Long"></div>
+    <div class="item"><img src="<?php echo get_template_directory_uri();?>/images/slider1.jpg" alt="Hoang Phi"></div>
+    <div class="item"><img src="<?php echo get_template_directory_uri();?>/images/slider2.jpg" alt="Hoang Phi"></div>
 </div>
 <!-- header slider -->
 <?php } ?>
