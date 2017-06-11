@@ -8,7 +8,10 @@
  * Tags: minhlong theme, wordpress theme, toanlm
  * Textdomain: minhlong
  */
-
+.owl-carousel img {
+    width: 100%;
+    height: auto;
+}
 .sticky {
     position: fixed;
     width: 100%;
@@ -20,6 +23,41 @@
 h2.h2-title.fancy{
     color: #181818;
     margin-bottom: 40px;
+}
+.info_dv {
+    font-size: 14px;
+    color: #181818;
+    width: 95%;
+    margin: 0px auto;
+    background: #fff;
+    margin-top: -40px;
+    position: relative;
+    border: 1px solid #EBEBEB;
+    padding: 10px;
+    text-align: justify;
+    min-height: 185px;
+}
+
+.name_dv {
+    text-align: center;
+    background: url('images/tit_dv2.png') no-repeat bottom center;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.name_dv a {
+    text-transform: uppercase;
+    /*font-family: 'SFUEurostileCondensed';*/
+    color: #0070a3;
+    font-size: 18px;
+}
+#owl-home.owl-theme .owl-controls div.owl-buttons div {font-size: 36px;}
+.owl-theme .owl-controls div.owl-buttons div {color: #BE0000;font-size: 50px;opacity: 1;margin: 0;padding: 0}
+.home .textwidget{border: none}
+.info_dv:hover .name_dv a{color: #fff;}
+.info_dv:hover {
+    background: #126fa4;
+    color: #fff;
 }
 .main-content p,
 .camket p{font-size: 18px;padding: 10px;color: #181818;}
@@ -59,7 +97,8 @@ header.header-top {
 }
 
 h4.caption-title-h4 {
-    font-size: 16px;
+    font-size: 26px;
+    text-align: center;
 }
 
 .bg-title {
@@ -94,36 +133,18 @@ ul#menu-minhlong a {
     background: none !important;
 }
 
+#owl-customer .owl-buttons .owl-next {}
 .owl-buttons .owl-next {
     position: absolute;
-    top: 45%;
-    right: 10px;
-    height: 64px;
-    width: 32px;
-    line-height: 60px;
+    top: 40%;
+    right: 0;
 }
 
+#owl-customer .owl-buttons .owl-prev {}
 .owl-buttons .owl-prev {
     position: absolute;
-    top: 45%;
-    left: 10px;
-    height: 64px;
-    width: 32px;
-    line-height: 60px;
-}
-
-.icon-arrow-right {
-    background: url("images/btn-next-rg.png") no-repeat;
-    height: 64px;
-    width: 32px;
-    display: block;
-}
-
-.icon-arrow-left {
-    background: url("images/btn-prev-rg.png") no-repeat;
-    height: 64px;
-    width: 32px;
-    display: block;
+    top: 40%;
+    left: 0;
 }
 
 img.logo-footer {
@@ -183,7 +204,7 @@ img.logo-footer {
     -webkit-box-shadow: 0 1px 2px #777;
     -moz-box-shadow: 0 2px 1px #777;
     box-shadow: 0 2px 1px #777;
-    min-height: 377px;
+    min-height: 405px;
 }
 
 .box-intro .item-intro .h3-title {
@@ -255,8 +276,8 @@ img.logo-footer {
     content: "";
     position: absolute;
     height: 5px;
-    border-bottom: 1px solid #f442b0;
-    border-top: 1px solid #f442b0;
+    border-bottom: 1px solid #126fa4;
+    border-top: 1px solid #126fa4;
     top: 15px;
     width: 600px;
 }
@@ -388,19 +409,31 @@ img.logo-footer {
     color: #FFF !important;
 }
 
+.left-footer .fa{margin-right: 10px; font-size: 22px}
+.left-footer{color: #fff;font-size: 18px}
+.caption-title.footer-text {
+    color: #fff;
+    text-align: left;
+    margin: 0 0 20px;
+}
 h2.caption-title {
-    font-size: 26px;
+    font-size: 32px;
     line-height: 40px;
     text-transform: uppercase;
     font-weight: bold;
+    text-align: center;
 }
 
+h3.hot-number.hot-email {font-size: 15px;margin-top: 10px}
 h3.hot-number {
     float: right;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 5px;
+    min-width: 240px;
+    font-size: 19px;
 }
 
+.hot-number i.fa.fa-envelope ,
 .hot-number i.fa.fa-phone {
     margin-right: 10px;
 }
@@ -537,9 +570,10 @@ section.img-intro {
 section.img-intro img {
     width: 100%;
 }
-
+#owl-dichvu .owl-item,
+#owl-customer-action .owl-item ,
 #owl-customer .owl-item {
-    padding: 10px;
+    padding: 0 5px;
 }
 
 .nav-mobile {
@@ -598,6 +632,10 @@ section.img-intro img {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .owl-buttons .owl-next {right: 10px}
+    .owl-buttons .owl-prev {left: 10px}
+}
 @media screen and (max-width: 767px) {
     img.custom-logo {
         width: 75%;

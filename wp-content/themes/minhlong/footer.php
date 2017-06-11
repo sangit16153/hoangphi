@@ -7,18 +7,26 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4">
-                <a href="<?php echo get_bloginfo('url'); ?>"><img class="logo-footer"
-                                                                  src="<?php echo get_option('logoFile'); ?>"></a>
+            <div class="col-xs-12 col-sm-7 col-md-7" style="padding-left: 0;">
+                <!--<a href="<?php /*echo get_bloginfo('url'); */?>"><img class="logo-footer"  src="<?php /*echo get_option('logoFile'); */?>"></a>-->
+                <h2 class="caption-title footer-text"> Công Ty TNHH Hoàng Phi ViNa</h2>
+                <p class="left-footer"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Địa chỉ: A802, Tổ 18B, Khu Phố 1, Phường Long Bình, Tp, Biên Hòa, Đồng Nai</p>
+                <p class="left-footer"><i class="fa fa-phone" aria-hidden="true"></i>Mr Phi:
+                    0942 634 923 </p>
+                <p class="left-footer"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    Email: hoangphivina79@gmail.com</p>
+                <p class="left-footer"><i class="fa fa-envelope" aria-hidden="true"></i>
+                    http://hoangphivina.com.vn</p>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-5">
+            <div class="col-xs-12 col-sm-5 col-md-5" style="padding-right: 0;">
                 <?php
                 if (is_active_sidebar('footer-sidebar')) {
                     dynamic_sidebar('footer-sidebar');
                 }
                 ?>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="col-xs-12 col-sm-4 col-md-3" style="display: none">
                 <h4 class="h4-title">Danh Mục</h4>
                 <?php minhlong_menu('footer-menu'); ?>
             </div>
