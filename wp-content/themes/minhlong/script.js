@@ -17,8 +17,9 @@ jQuery(document).ready(function ($) {
         autoPlay: false,
         items: 4,
         itemsDesktop: [1199, 4],
-        itemsDesktopSmall: [979, 4],
-        itemsMobile: [979, 4],
+        itemsDesktopSmall: [979, 3],
+        itemsMobile: [768, 3],
+        itemsMobile: [480, 1],
         navigation: true,
         pagination: false,
         navigationText: [
@@ -28,6 +29,21 @@ jQuery(document).ready(function ($) {
     });
 
     $("#owl-customer-action").owlCarousel({
+        autoPlay: false,
+        items: 4,
+        itemsDesktop: [1199, 4],
+        itemsDesktopSmall: [979, 4],
+        itemsMobile: [979, 4],
+        itemsMobile: [480, 1],
+        navigation: true,
+        pagination: false,
+        navigationText: [
+            "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+            "<i class='fa fa-angle-right' aria-hidden='true'></i>"
+        ]
+    });
+
+    $("#owl-customer-past").owlCarousel({
         autoPlay: false,
         items: 4,
         itemsDesktop: [1199, 4],
