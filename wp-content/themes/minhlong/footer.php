@@ -5,68 +5,68 @@
 <!-- footer -->
 <div class="border-footer"></div>
 <footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-7 col-md-7 footer-left">
-                <!--<a href="<?php /*echo get_bloginfo('url'); */ ?>"><img class="logo-footer"  src="<?php /*echo get_option('logoFile'); */ ?>"></a>-->
-                <h2 class="caption-title footer-text"> Công Ty TNHH Hoàng Phi ViNa</h2>
-                <p class="left-footer"><i class="fa fa-map-marker" aria-hidden="true"></i>
-                    Địa chỉ: A802, Tổ 18B, Khu Phố 1, Phường Long Bình, Tp, Biên Hòa, Đồng Nai</p>
-                <p class="left-footer"><i class="fa fa-phone" aria-hidden="true"></i>Mr Phi:
-                    0942 634 923 </p>
-                <p class="left-footer"><i class="fa fa-envelope" aria-hidden="true"></i>
-                    Email: hoangphivina79@gmail.com</p>
-                <p class="left-footer"><i class="fa fa-globe" aria-hidden="true"></i>
-                    http://hoangphivina.com.vn</p>
-            </div>
-            <div class="col-xs-12 col-sm-5 col-md-5 footer-right">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-7 col-md-7 footer-left">
+        <!--<a href="<?php /*echo get_bloginfo('url'); */ ?>"><img class="logo-footer"  src="<?php /*echo get_option('logoFile'); */ ?>"></a>-->
+        <h2 class="caption-title footer-text"> Công Ty TNHH Hoàng Phi ViNa</h2>
+        <p class="left-footer"><i class="fa fa-map-marker" aria-hidden="true"></i>
+          Địa chỉ: A802, Tổ 18B, Khu Phố 1, Phường Long Bình, Tp, Biên Hòa, Đồng Nai</p>
+          <p class="left-footer"><i class="fa fa-phone" aria-hidden="true"></i>Mr Phi:
+            0942 634 923 </p>
+            <p class="left-footer"><i class="fa fa-envelope" aria-hidden="true"></i>
+              Email: hoangphivina79@gmail.com</p>
+              <p class="left-footer"><i class="fa fa-globe" aria-hidden="true"></i>
+                http://hoangphivina.com.vn</p>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-md-5 footer-right">
                 <?php
                 if (is_active_sidebar('footer-sidebar')) {
-                    dynamic_sidebar('footer-sidebar');
+                  dynamic_sidebar('footer-sidebar');
                 }
                 ?>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-3" style="display: none">
+              </div>
+              <div class="col-xs-12 col-sm-4 col-md-3" style="display: none">
                 <h4 class="h4-title">Danh Mục</h4>
                 <?php minhlong_menu('footer-menu'); ?>
-            </div>
+              </div>
 
-        </div>
-    </div>
-</footer>
-<div class="footer-buttom">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            </div>
+          </div>
+        </footer>
+        <div class="footer-buttom">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="col-xs-12 col-sm-6 col-md-6 footer-copyright">
-                    <div class="row">
-                        <p class="copyright"> ©copyright <?php echo date('Y'); ?> <a
-                                    href="<?php echo get_bloginfo('url'); ?>"><b> <?php bloginfo('sitename'); ?></b></a>
-                        </p>
-                    </div>
+                  <div class="row">
+                    <p class="copyright"> ©copyright <?php echo date('Y'); ?> <a
+                      href="<?php echo get_bloginfo('url'); ?>"><b> <?php bloginfo('sitename'); ?></b></a>
+                    </p>
+                  </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="row">
-                        <div class="footer-icon-network">
-                            <a class="icon-footer" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a class="icon-footer" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                            <a class="icon-footer" target="_blank"
-                               href="http://trangvangvietnam.com/image_listings/1187756820/cong_ty_tnhh_hoang_phi_vi_na.html">
-                                <img
-                                        src="http://localhost/hoangphi/wp-content/uploads/2017/05/new_logo_trangvangvietnam.png"
-                                        alt="new_logo_trangvangvietnam"
-                                        class="alignnone size-full wp-image-178" style="height: 35px;width: auto;"/></i>
-                            </a>
-                        </div>
-                    </div>
+                  <div class="row">
+                    <div class="footer-icon-network">
+                      <a class="icon-footer" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a class="icon-footer" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                      <a class="icon-footer" target="_blank"
+                      href="http://trangvangvietnam.com/image_listings/1187756820/cong_ty_tnhh_hoang_phi_vi_na.html">
+                      <img
+                      src="http://localhost/hoangphi/wp-content/uploads/2017/05/new_logo_trangvangvietnam.png"
+                      alt="new_logo_trangvangvietnam"
+                      class="alignnone size-full wp-image-178" style="height: 35px;width: auto;"/></i>
+                    </a>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</div>
-<!-- footer -->
-<a href="#" class="scrollup">Scroll</a>
-<?php wp_footer(); ?>
+      </div>
+      <!-- footer -->
+      <a href="#" class="scrollup">Scroll</a>
+      <?php wp_footer(); ?>
 
 <!--<div id="fb-root"></div>
   <script>(function(d, s, id) {
@@ -91,31 +91,31 @@
       <div class="fchat">
       <div class="fb-page" data-tabs="messages" data-href="https://www.facebook.com/baohanhminhlong" data-width="250" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"></div>
       </div>
-  </div>-->
-<script>
-    jQuery(document).ready(function ($) {
+    </div>-->
+    <script>
+      jQuery(document).ready(function ($) {
         var widthscreen= $( window ).width();
         if (widthscreen >= 768) {
-            var stickyNavTop = $('.header-bottom').offset().top;
+          var stickyNavTop = $('.header-bottom').offset().top;
 
-            var stickyNav = function () {
-                var scrollTop = $(window).scrollTop();
+          var stickyNav = function () {
+            var scrollTop = $(window).scrollTop();
 
-                if (scrollTop > stickyNavTop) {
-                    $('.header-bottom').addClass('sticky');
-                } else {
-                    $('.header-bottom').removeClass('sticky');
-                }
-            };
+            if (scrollTop > stickyNavTop) {
+              $('.header-bottom').addClass('sticky');
+            } else {
+              $('.header-bottom').removeClass('sticky');
+            }
+          };
 
+          stickyNav();
+
+          jQuery(window).scroll(function () {
             stickyNav();
-
-            jQuery(window).scroll(function () {
-                stickyNav();
-            });
+          });
         }
-    });
-</script>
+      });
+    </script>
 
-</body>
-</html>
+  </body>
+  </html>

@@ -1,3 +1,4 @@
+
 /*
  * Theme Name: MinhLong Theme
  * Description: Theme website MinhLong
@@ -8,6 +9,12 @@
  * Tags: minhlong theme, wordpress theme, toanlm
  * Textdomain: minhlong
  */
+ .owl-carousel .owl-item:hover img{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 .owl-carousel img {
     width: 100%;
     height: auto;
